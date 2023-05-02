@@ -20,6 +20,12 @@
   justify-content: center;
 }
 
+.container--flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .laptop__screen--IO {
   position: static;
   top: 10px;
@@ -114,6 +120,24 @@
   gap: 40px;
   justify-content: center;
   align-items: center;
+}
+
+.section__story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section__story.--two .container--flex,
+.section__story.--four .container--flex,
+.section__story.--five .container--flex {
+  flex-wrap: wrap-reverse;
+}
+
+.section__story p {
+  max-width: 30ch;
 }
 
 .laptop__screen {
@@ -248,4 +272,8 @@ body {
 
 .text--normal {
   font-size: 50px;
+}
+
+.flex-child p {
+  font-size: 40px;
 }/*# sourceMappingURL=index.css.map */
