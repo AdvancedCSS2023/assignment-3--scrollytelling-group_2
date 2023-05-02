@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Laptop screen styles
+.laptop__screen {
+    width: 85vw;
+    height: 85vh;
+    border: 35px solid rgb(35, 35, 35);
+    overflow-y: auto; 
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+// Browser styles
+.browser{
+    width: 100%;
+    height: 30px;
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.browser__url{
+    width: 100%;
+    height: 40px;  
+}
+
+.url__field{
+    width: 80%;
+    height: 25px;
+    border-radius: 15px; 
+}
+
+.arrow svg{
+    width: 15px;
+}
+
+.arrow.--right{
+    transform: rotate(180deg);
+    margin-bottom: 11px;
+}
+
+.browser__refresh svg{
+    width: 20px;
+    opacity: 0.8;
+  }
+
+
+
+.content-container {
+    overflow-y: auto;
+}
+
+// Section for article
+.section{
+    width: 85vw;
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.section--first {
+    height: 100%;
+    background-image: url(../assets/images/windmill.jpg); 
+}
+
+.para{
+    height: 100vh;
+    width: 60ch;
+    margin: 0 auto; 
+    transform: translateY(50vh);
+}
+
+.para50{
+    height: 50vh;
+}
+
+.para__background {
+    padding: 2%;
+  }
+.para__background p,
+.para__background h2{
+    opacity: 1;
+    color: white;
+    line-height: 1.4;
+}
