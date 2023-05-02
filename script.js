@@ -28,7 +28,8 @@ billsThree.forEach((el) => observerSceneOne.observe(el));
 const delayed = document.querySelectorAll('.delayed');
 delayed.forEach((el) => observerSceneOne.observe(el))
 
-
+const title = document.querySelectorAll('.flex__container--start');
+title.forEach((el) => observerSceneOne.observe(el));
 
 
 

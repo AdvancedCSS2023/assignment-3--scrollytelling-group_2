@@ -520,4 +520,22 @@ body {
   animation-delay: 1.7s;
   animation-duration: 1s;
   animation-fill-mode: both;
+}
+
+@keyframes coolHeader {
+  0% {
+    opacity: 0;
+    transform: scale(0.1) translateY(-1000px);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.475) translateY(60px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+.animated.flex__container--start {
+  animation: coolHeader 1s ease both;
 }/*# sourceMappingURL=index.css.map */
