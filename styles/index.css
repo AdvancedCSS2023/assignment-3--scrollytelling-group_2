@@ -538,4 +538,17 @@ body {
 }
 .animated.flex__container--start {
   animation: coolHeader 1s ease both;
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+.animated.para__span {
+  animation: 1.5s highlight 1s 1 normal forwards;
+  background-color: none;
+  background: linear-gradient(90deg, #1ad136 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
 }/*# sourceMappingURL=index.css.map */

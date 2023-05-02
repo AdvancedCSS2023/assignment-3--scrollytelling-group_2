@@ -31,6 +31,8 @@ delayed.forEach((el) => observerSceneOne.observe(el))
 const title = document.querySelectorAll('.flex__container--start');
 title.forEach((el) => observerSceneOne.observe(el));
 
+const paraSpan = document.querySelectorAll('.para__span');
+paraSpan.forEach((el) => observerSceneOne.observe(el))
 
 
 
