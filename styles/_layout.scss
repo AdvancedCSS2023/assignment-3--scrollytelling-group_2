@@ -102,3 +102,27 @@
 }
 
 
+// table and bills 
+.table-and-bills__container{
+    position: relative;
+    padding-top: 100px;
+}
+  
+.bills__container{
+  position: absolute;
+  z-index: 1000;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+  
+.bills--two {
+    margin-left: -50px;
+}
+  
+.bills--three {
+    margin-left: -50px;
+}
+  
+.table {
+    position: relative;
+}
