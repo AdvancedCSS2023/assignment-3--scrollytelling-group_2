@@ -223,6 +223,23 @@
   opacity: 0.8;
 }
 
+.browser:hover .functions {
+  display: block;
+}
+
+.functions {
+  display: none;
+}
+
+.x {
+  margin-top: -2px;
+  margin-left: 1px;
+}
+
+.fullscreen {
+  transform: scale(0.7) rotate(45deg);
+}
+
 .content__container {
   overflow-y: hidden;
 }
@@ -403,6 +420,22 @@ body {
 .para-number h3 {
   font-weight: bold;
   font-size: 100px;
+}
+
+.para__background p {
+  font-size: 20px;
+}
+
+.x {
+  font-size: 100%;
+}
+
+.close {
+  font-size: 100%;
+}
+
+.fullscreen {
+  font-size: 90%;
 }
 
 @keyframes flagIn {
