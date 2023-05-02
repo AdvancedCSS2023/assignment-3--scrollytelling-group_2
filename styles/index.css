@@ -287,6 +287,22 @@
   text-align: center;
 }
 
+.para__background {
+  text-align: center;
+}
+
+.actions {
+  margin-bottom: 50vh;
+}
+
+.denmark {
+  margin-top: -35vh;
+}
+
+div.iceland {
+  height: 50vh;
+}
+
 .bills {
   width: 150px;
   height: 150px;
