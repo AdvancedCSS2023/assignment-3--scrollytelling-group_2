@@ -551,4 +551,28 @@ body {
   background: linear-gradient(90deg, #1ad136 50%, rgba(255, 255, 255, 0) 50%);
   background-size: 200% 100%;
   background-position: 100% 0;
+}
+
+@keyframes energyBill {
+  0% {
+    transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+.animated.energy__bill {
+  animation-name: energyBill;
+  animation-duration: 1.2s;
+  animation-delay: 0.6s;
+  animation-iteration-count: infinite;
 }/*# sourceMappingURL=index.css.map */
