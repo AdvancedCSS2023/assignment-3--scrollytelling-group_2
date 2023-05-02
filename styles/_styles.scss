@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.unSticky__sensor {
+    width: 100%;
+    height: 1px;
+  }
+
 // Section start
 .section__start{
     height: 100vh;
@@ -48,7 +53,7 @@
     width: 85vw;
     height: 85vh;
     border: 35px solid rgb(35, 35, 35);
-    overflow-y: auto; 
+    overflow-y: hidden; 
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -93,7 +98,7 @@
 
 
 .content-container {
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 // Section for article
@@ -103,7 +108,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    // overflow: hidden; husk å ta vekk
+    overflow: hidden;
     opacity: 1;
 }
 
