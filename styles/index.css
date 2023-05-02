@@ -455,4 +455,31 @@ body {
 .animated.flag_img_container {
   animation: flagIn 1.2s backwards;
   animation-fill-mode: both;
+}
+
+@keyframes inToLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0) skewX(30deg);
+  }
+  60% {
+    opacity: 1;
+    transform: skewX(-20deg);
+  }
+  80% {
+    transform: skewX(5deg);
+  }
+  100% {
+    transform: none;
+    opacity: 1;
+  }
+}
+.animated.inToLeft {
+  animation-name: inToLeft;
+  animation-duration: 1.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  transform: translate3d(-100%, 0, 0) skewX(30deg);
+  opacity: 0;
 }/*# sourceMappingURL=index.css.map */
