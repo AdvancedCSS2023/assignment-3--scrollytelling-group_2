@@ -13,6 +13,9 @@ const observerSceneOne= new IntersectionObserver((entries) => {
 const flag = document.querySelectorAll('.flag_img_container');
 flag.forEach((el) => observerSceneOne.observe(el))
 
+const inToLeft = document.querySelectorAll('.inToLeft');
+inToLeft.forEach((el) => observerSceneOne.observe(el));
+
 
 
 
