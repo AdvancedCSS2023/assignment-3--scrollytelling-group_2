@@ -6,7 +6,13 @@ body{
 .para__background{
     background-color: rgba(0, 0, 0, 0.7);
 }
+.para-number{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
+.para-number h3{
+    color: white;
+}
 // Browser colors
 .browser{
     background-color: rgb(232, 234, 237);
