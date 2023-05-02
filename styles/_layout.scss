@@ -1,4 +1,31 @@
+.section__start--help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__container--start{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.flex-child--start.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
 // Whole laptop screen layout
+.laptop__screen--IO {
+    position: static;
+    top: 10px;
+  }
 .laptop__screen {
     position: relative;
     top: 10px;
