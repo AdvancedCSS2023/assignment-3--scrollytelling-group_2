@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(235, 232, 226);
+  }
+
+// Article
+.para__background{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+// Browser colors
+.browser{
+    background-color: rgb(232, 234, 237);
+}
+
+.--red{
+    background-color: rgb(236, 104, 93);
+}
+.--yellow{
+    background-color: rgb(246, 190, 79);
+}
+.--green{
+    background-color: rgb(99, 197, 85);
+}
+
+.browser__url{ // done
+    background-color: rgb(255, 255, 255);
+}
+
+.url__field{
+    background-color: rgb(244, 245, 247);  
+}
+  
+
+.content-container {
+    background-color: white;
+}
