@@ -1,3 +1,4 @@
+// Section start
 .section__start--help{
     display: flex;
     justify-content: center;
@@ -19,6 +20,14 @@
     flex-direction: column;
     justify-content: center;
   
+}
+
+// Section story
+
+.container--flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 // Whole laptop screen layout
