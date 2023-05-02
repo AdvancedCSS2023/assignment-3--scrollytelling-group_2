@@ -34,6 +34,8 @@ title.forEach((el) => observerSceneOne.observe(el));
 const paraSpan = document.querySelectorAll('.para__span');
 paraSpan.forEach((el) => observerSceneOne.observe(el))
 
+const energyBill = document.querySelectorAll('.energy__bill');
+energyBill.forEach((el) => observerSceneOne.observe(el))
 
 
 
