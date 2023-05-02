@@ -24,6 +24,25 @@
     align-items: center;
 }
 
+// Section story
+.section__story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.section__story.--two .container--flex,
+.section__story.--four .container--flex,
+.section__story.--five .container--flex{ 
+  flex-wrap: wrap-reverse;
+}
+
+.section__story p{
+    max-width: 30ch;
+  }
+
 // Laptop screen styles
 .laptop__screen {
     width: 85vw;
