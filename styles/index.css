@@ -1,4 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+.section__start--help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex__container--start {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-child--start.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.laptop__screen--IO {
+  position: static;
+  top: 10px;
+}
+
 .laptop__screen {
   position: relative;
   top: 10px;
@@ -69,6 +95,25 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+.section__start {
+  height: 100vh;
+}
+
+.section__start--help {
+  width: 100%;
+  height: 100vh;
+}
+
+.flex__container--start {
+  position: relative;
+  opacity: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 .laptop__screen {
@@ -195,4 +240,12 @@ body {
 
 body {
   font-family: "Nunito", sans-serif;
+}
+
+#number__seven {
+  font-size: 90px;
+}
+
+.text--normal {
+  font-size: 50px;
 }/*# sourceMappingURL=index.css.map */
