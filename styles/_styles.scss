@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+// Section start
+.section__start{
+    height: 100vh;
+  
+}
+
+.section__start--help{
+    width: 100%;
+    height: 100vh;
+}
+
+.flex__container--start{
+    position: relative;
+    opacity: 1; // 0 for script
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
 // Laptop screen styles
 .laptop__screen {
     width: 85vw;
