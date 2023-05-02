@@ -103,13 +103,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: hidden;
+    // overflow: hidden; husk å ta vekk
     opacity: 1;
 }
 
 .section--first {
     height: 100%;
     background-image: url(../assets/images/windmill.jpg); 
+}
+
+.section--sixth {
+    height: 100%;
+    background-image: url(../assets/images/global.jpg); 
 }
 
 .para{
@@ -150,3 +155,24 @@
     width: 500px;
     height: 500px;
 }
+
+// countries section
+
+.flex_container_flag {
+    height: 100vh;
+}
+
+  
+.flex_container_flag img {
+    width: 200px;
+    height: 150px;
+}
+
+.flag_text {
+    max-width: 60ch;
+    font-size: 20px;
+    opacity: 1;
+    line-height: 1.4;
+    padding: 2%;
+}
+  

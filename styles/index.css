@@ -122,6 +122,15 @@
   position: relative;
 }
 
+.flex_container_flag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(50vh);
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -219,13 +228,17 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: hidden;
   opacity: 1;
 }
 
 .section--first {
   height: 100%;
   background-image: url(../assets/images/windmill.jpg);
+}
+
+.section--sixth {
+  height: 100%;
+  background-image: url(../assets/images/global.jpg);
 }
 
 .para {
@@ -265,6 +278,23 @@
   height: 500px;
 }
 
+.flex_container_flag {
+  height: 100vh;
+}
+
+.flex_container_flag img {
+  width: 200px;
+  height: 150px;
+}
+
+.flag_text {
+  max-width: 60ch;
+  font-size: 20px;
+  opacity: 1;
+  line-height: 1.4;
+  padding: 2%;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
@@ -299,6 +329,11 @@ body {
 
 .content__container {
   background-color: white;
+}
+
+.flag_text {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 body {
