@@ -126,3 +126,15 @@
 .table {
     position: relative;
 }
+
+// Countries section
+
+.flex_container_flag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(50vh);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+  
