@@ -1,3 +1,24 @@
+const observerSceneOne= new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+          entry.target.classList.add('animated');
+      } else {
+          entry.target.classList.remove('animated');
+      }
+  });
+}, {
+  rootMargin: '-1px 0px',
+});
+
+const flag = document.querySelectorAll('.flag_img_container');
+flag.forEach((el) => observerSceneOne.observe(el))
+
+
+
+
+
+
+
 const sections = document.querySelectorAll('.unSticky__sensor');
 
 let laptopScreenIO = document.querySelector('.laptop__screen--IO');
