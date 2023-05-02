@@ -16,6 +16,18 @@ flag.forEach((el) => observerSceneOne.observe(el))
 const inToLeft = document.querySelectorAll('.inToLeft');
 inToLeft.forEach((el) => observerSceneOne.observe(el));
 
+const billsOne = document.querySelectorAll('.bills--one');
+billsOne.forEach((el) => observerSceneOne.observe(el));
+
+const billsTwo = document.querySelectorAll('.bills--two');
+billsTwo.forEach((el) => observerSceneOne.observe(el));
+
+const billsThree = document.querySelectorAll('.bills--three');
+billsThree.forEach((el) => observerSceneOne.observe(el));
+
+const delayed = document.querySelectorAll('.delayed');
+delayed.forEach((el) => observerSceneOne.observe(el))
+
 
 
 
