@@ -97,7 +97,7 @@
 
 
 
-.content-container {
+.content__container {
     overflow-y: hidden;
 }
 
@@ -115,6 +115,11 @@
 .section--first {
     height: 100%;
     background-image: url(../assets/images/windmill.jpg); 
+}
+
+.section--fifth {
+    height: 100%;
+    background-image: url(../assets/images/solar-panels.jpg); 
 }
 
 .section--sixth {
@@ -141,6 +146,19 @@
     opacity: 1;
     color: white;
     line-height: 1.4;
+}
+
+.para-number__container{
+    max-width: 10%;
+    margin: 0 auto
+}
+
+.para-number{
+    padding: 2%
+}
+
+.para-number h3{
+    text-align: center;
 }
 
 
@@ -180,4 +198,3 @@
     line-height: 1.4;
     padding: 2%;
 }
-  
