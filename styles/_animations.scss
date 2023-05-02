@@ -1,0 +1,27 @@
+
+@keyframes flagIn {
+    0% {
+        transform: translate(100%) scale(0.7);
+        opacity: 0;
+    }
+    
+    80% {
+        -webkit-transform: translateX(0px) scale(0.7);
+        
+      transform: translateX(0px) scale(0.7);
+  
+      opacity: 0.7;
+    }
+    
+    100% {
+        -webkit-transform: scale(1);
+        
+        transform: scale(1);
+        
+        opacity: 1;
+    }
+}
+.animated.flag_img_container{
+    animation: flagIn 1.2s backwards;
+    animation-fill-mode: both;
+  }
