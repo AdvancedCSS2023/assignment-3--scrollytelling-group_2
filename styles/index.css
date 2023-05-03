@@ -467,6 +467,11 @@ body {
   background-color: rgba(109, 189, 209, 0.292);
 }
 
+.text--climate-relating {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: rgba(202, 198, 198, 0.794);
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
