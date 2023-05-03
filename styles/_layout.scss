@@ -174,7 +174,13 @@
     padding: 25px;
 }
 
-.text__content--black {
+.text__content--black,
+.text__content--wave {
     padding: 20px;
     margin-top: 95vh;
+}
+
+.text__content--wave {
+    margin-left: 55%;
+    margin-bottom: 20%;
 }
