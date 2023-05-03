@@ -90,5 +90,18 @@ Replaced following javascript with snap-scrolling in CSS (scroll container scrol
 
 const section = document.querySelector('.section--wave');
 
-const handler = () => console.log('handle event');
+const handler = (entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            const wave = document.querySelector('.ocean');
+            wave.classList.add('show');
+            wave.classList.remove('hide');
+        } else {
+            const wave = document.querySelector('.ocean');
+            wave.classList.add('hide');
+            wave.classList.remove('show');
+        }
+    });
+};
+
 const intersectionObserver = new IntersectionObserver(handler, {});
