@@ -459,6 +459,7 @@ body {
 
 .text--consequences {
   font-size: 25px;
+  text-align: justify;
 }
 
 @keyframes flagIn {
