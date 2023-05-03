@@ -420,6 +420,10 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.text__content--black {
+  background-color: rgba(0, 0, 0, 0.527);
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
