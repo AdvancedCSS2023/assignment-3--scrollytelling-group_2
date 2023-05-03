@@ -459,6 +459,10 @@ body {
   color: rgba(202, 198, 198, 0.794);
 }
 
+.text__content--wave {
+  background-color: rgba(109, 189, 209, 0.292);
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }

@@ -1,5 +1,6 @@
 $backgroundColorText: rgba(0, 0, 0, 0.527);
 $grayTextColor: rgba(202, 198, 198, 0.794);
+$blueColor: rgba(109, 189, 209, 0.292);
 
 body {
   background-color: rgba(235, 232, 226);
@@ -54,4 +55,8 @@ body {
 .text__content--black {
   background-color: $backgroundColorText;
   color: $grayTextColor;
+}
+
+.text__content--wave {
+  background-color: $blueColor;
 }
