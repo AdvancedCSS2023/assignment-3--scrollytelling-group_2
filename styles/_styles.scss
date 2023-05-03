@@ -224,25 +224,3 @@ div.iceland {
   line-height: 1.4;
   padding: 2%;
 }
-
-// * * * * Snizhana * * * 
-
-.sections--snizhana {
-  scroll-snap-type: y mandatory;
-  overflow-y: auto;
-  height: 100vh;
-
-  section {
-    height: 100vh;
-    overflow: auto;
-    scroll-snap-align: start;
-  }
-}
-
-.text--consequences {
-    width: 40%;
-}
-
-.text--consequences {
-    padding: 25px;
-}

@@ -1,140 +1,158 @@
 // Section start
-.section__start--help{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section__start--help {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.flex__container--start{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.flex__container--start {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
 
-.flex-child--start.heading{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
+.flex-child--start.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 // Section story
 
 .container--flex {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 // Whole laptop screen layout
 .laptop__screen--IO {
-    position: static;
-    top: 10px;
-  }
+  position: static;
+  top: 10px;
+}
 .laptop__screen {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .content__container {
-    position: absolute;
-  }
+  position: absolute;
+}
 
 // Browser layout
-.browser{
-    position: sticky;
-    top: 0;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.browser {
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.browser__url{ 
-    position: sticky;
-    top: 30px;
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.browser__url {
+  position: sticky;
+  top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
-.url__field{
-    margin-left: 1%;
-    display: flex;
-    align-items: center;
+.url__field {
+  margin-left: 1%;
+  display: flex;
+  align-items: center;
 }
-  
+
 .url__field p {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
-.arrow{
-    margin-left: 1%;
+.arrow {
+  margin-left: 1%;
 }
 
-.circle{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.--red{
-    margin-left: 1vw;
-    top: 0;
+.--red {
+  margin-left: 1vw;
+  top: 0;
 }
-.--yellow{
-    top: 0;
+.--yellow {
+  top: 0;
 }
-.--green{
-    top: 0;
-}
-
-.browser__refresh svg{
-    padding-left: 5px;
-  }
-
-.headline--top{
-    margin-top: 20vh;
+.--green {
+  top: 0;
 }
 
-
-// table and bills 
-.table-and-bills__container{
-    position: relative;
-    padding-top: 100px;
+.browser__refresh svg {
+  padding-left: 5px;
 }
-  
-.bills__container{
+
+.headline--top {
+  margin-top: 20vh;
+}
+
+// table and bills
+.table-and-bills__container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.bills__container {
   position: absolute;
   z-index: 1000;
   margin-top: -50px;
   margin-left: 60px;
 }
-  
+
 .bills--two {
-    margin-left: -50px;
+  margin-left: -50px;
 }
-  
+
 .bills--three {
-    margin-left: -50px;
+  margin-left: -50px;
 }
-  
+
 .table {
-    position: relative;
+  position: relative;
 }
 
 // Countries section
 
 .flex_container_flag {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transform: translateY(50vh);
-    gap: 10px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translateY(50vh);
+  gap: 10px;
+  flex-wrap: wrap;
 }
-  
+
+// * * * * Snizhana * * *
+
+.sections--snizhana {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
+
+  section {
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-align: start;
+  }
+}
+
+.text--consequences {
+  width: 40%;
+}
+
+.text--consequences {
+  padding: 25px;
+}
