@@ -151,3 +151,27 @@ $animation--delay: 0.5s;
     animation-delay: 0.6s;
     animation-iteration-count: infinite;
   }
+
+  @media (prefers-reduced-motion) {
+    .animated.flag_img_container,
+    .animated.inToLeft,
+    .animated.bills--one,
+    .animated.bills--two,
+    .animated.bills--three,
+    .animated.flex__container--start,
+    .animated.para__span,
+    .animated.energy__bill  {
+        animation: none;
+      transition: none;
+    }
+
+    .animated.inToLeft{
+      opacity: 1;
+      transform: translateX(0px) scale(1);
+    }
+
+    .animated.para__span {
+        background-position: 0 0;
+      }
+
+  }
