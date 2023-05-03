@@ -1,25 +1,22 @@
 // * * *  Snizhana
 
-.section--consequences {
-    background-image: url(../assets/images/earth-energy.jpg);
+.content__container section {
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.section--consequences {
+    background-image: url(../assets/images/earth-energy.jpg);
 }
 
 .section--wave {
     background-image: url(../assets/images/earth-in-water.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .section--prediction {
     background-image: url(../assets/images/hurricanes.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .section--climate-relating {
     background-image: url(../assets/images/energy-gw.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
