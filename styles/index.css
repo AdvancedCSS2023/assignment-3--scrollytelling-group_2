@@ -457,6 +457,10 @@ body {
   font-size: 90%;
 }
 
+.text--consequences {
+  font-size: 25px;
+}
+
 @keyframes flagIn {
   0% {
     transform: translate(100%) scale(0.7);
