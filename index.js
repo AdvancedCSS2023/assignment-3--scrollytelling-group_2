@@ -107,3 +107,5 @@ const handler = (entries) => {
 const intersectionObserver = new IntersectionObserver(handler, {
     threshold: 0.6,
 });
+
+intersectionObserver.observe(section);
