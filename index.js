@@ -104,4 +104,6 @@ const handler = (entries) => {
     });
 };
 
-const intersectionObserver = new IntersectionObserver(handler, {});
+const intersectionObserver = new IntersectionObserver(handler, {
+    threshold: 0.6,
+});
