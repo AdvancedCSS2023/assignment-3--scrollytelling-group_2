@@ -367,6 +367,10 @@ div.iceland {
   width: 40%;
 }
 
+.text--consequences {
+  padding: 25px;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
