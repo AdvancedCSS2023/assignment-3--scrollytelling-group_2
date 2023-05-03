@@ -463,6 +463,10 @@ body {
   background-color: rgba(109, 189, 209, 0.292);
 }
 
+.text__content--prediction {
+  background-color: rgba(109, 189, 209, 0.292);
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
