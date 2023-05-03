@@ -593,4 +593,10 @@ body {
   background-image: url(../assets/images/hurricanes.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.section--climate-relating {
+  background-image: url(../assets/images/energy-gw.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=index.css.map */
