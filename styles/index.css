@@ -153,11 +153,13 @@
   display: none;
 }
 
-.text--consequences {
+.text--consequences,
+.text__content--wave {
   width: 40%;
 }
 
-.text--consequences {
+.text--consequences,
+.text__content--wave {
   padding: 25px;
 }
 
