@@ -5,48 +5,48 @@ $animation--delay: 0.5s;
         transform: translate(100%) scale(0.7);
         opacity: 0;
     }
-    
+
     80% {
         transform: translateX(0px) scale(0.7);
         opacity: 0.7;
     }
-    
+
     100% {
         transform: scale(1);
         opacity: 1;
     }
 }
-.animated.flag_img_container{
+.animated.flag_img_container {
     animation: flagIn 1.2s backwards;
     animation-fill-mode: both;
 }
 
 @keyframes inToLeft {
-  0% {
-    opacity: 0;
-    transform: translate3d(-100%, 0, 0) skewX(30deg);
-  }
-  60% {
-    opacity: 1;
-    transform: skewX(-20deg);
-  }
-  80% {
-    transform: skewX(5deg);
-  }
-  100% {
-    transform: none;
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0) skewX(30deg);
+    }
+    60% {
+        opacity: 1;
+        transform: skewX(-20deg);
+    }
+    80% {
+        transform: skewX(5deg);
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
 }
 
-.animated.inToLeft{
-  animation-name: inToLeft;
-  animation-duration: 1.7s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: forwards;
-  animation-delay: $animation--delay;
-  transform: translate3d(-100%, 0, 0) skewX(30deg);
-  opacity: 0;
+.animated.inToLeft {
+    animation-name: inToLeft;
+    animation-duration: 1.7s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: $animation--delay;
+    transform: translate3d(-100%, 0, 0) skewX(30deg);
+    opacity: 0;
 }
 
 .animated.delayed {
@@ -58,112 +58,127 @@ $animation--delay: 0.5s;
 
 @keyframes fadeFromLeft {
     0% {
-      opacity: 0;
-      transform: translate(-100%, -100%);
+        opacity: 0;
+        transform: translate(-100%, -100%);
     }
     100% {
-      opacity: 1;
-      transform: translate(0, 0);
+        opacity: 1;
+        transform: translate(0, 0);
     }
-  }
-  
-  .animated.bills--one {
+}
+
+.animated.bills--one {
     animation-name: fadeFromLeft;
     animation-delay: 0.7s;
     animation-duration: 1s;
     animation-fill-mode: both;
-  }
-  
-  .animated.bills--two {
+}
+
+.animated.bills--two {
     animation-name: fadeFromLeft;
     animation-delay: 1.2s;
     animation-duration: 1s;
     animation-fill-mode: both;
-  }
-  
-  .animated.bills--three {
+}
+
+.animated.bills--three {
     animation-name: fadeFromLeft;
     animation-delay: 1.7s;
     animation-duration: 1s;
     animation-fill-mode: both;
-  }
+}
 
-  @keyframes coolHeader {
+@keyframes coolHeader {
     0% {
-      opacity: 0;
-      transform: scale(0.1) translateY(-1000px);
+        opacity: 0;
+        transform: scale(0.1) translateY(-1000px);
     }
     60% {
-      opacity: 1;
-      transform: scale(0.475) translateY(60px);
+        opacity: 1;
+        transform: scale(0.475) translateY(60px);
     }
     100% {
-      opacity: 1;
-      transform: scale(1) translateY(0);
+        opacity: 1;
+        transform: scale(1) translateY(0);
     }
-  }
-  
-  .animated.flex__container--start {
+}
+
+.animated.flex__container--start {
     animation: coolHeader 1s ease both;
-  }
- 
-  @keyframes highlight {
+}
+
+@keyframes highlight {
     to {
-      background-position: 0 0;
+        background-position: 0 0;
     }
-  }
-  
-  .animated.para__span {
+}
+
+.animated.para__span {
     animation: 1.5s highlight 1s 1 normal forwards;
     background-color: none;
     background: linear-gradient(90deg, #1ad136 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
     background-position: 100% 0;
-  }
+}
 
-  @keyframes energyBill {
+@keyframes energyBill {
     0% {
-      transform: scale(1);
+        transform: scale(1);
     }
     10%,
     20% {
-      transform: scale(0.9) rotate(-3deg);
+        transform: scale(0.9) rotate(-3deg);
     }
     30%,
     50%,
     70%,
     90% {
-      transform: scale(1.1) rotate(3deg);
+        transform: scale(1.1) rotate(3deg);
     }
     40%,
     60%,
     80% {
-      transform: scale(1.1) rotate(-3deg);
+        transform: scale(1.1) rotate(-3deg);
     }
     100% {
-      transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0);
     }
-  }
-  
-  .animated.energy__bill {
+}
+
+.animated.energy__bill {
     animation-name: energyBill;
     animation-duration: 1.2s;
     animation-delay: 0.6s;
     animation-iteration-count: infinite;
-  }
+}
 
-  // * * * Snizhana * * * *
+// * * * Snizhana * * * *
 
-  .wave {
+.wave {
     animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
     transform: translate3d(0, 0, 0);
-  } 
+}
 
-  @keyframes wave {
+@keyframes wave {
     0% {
-      margin-left: 0;
+        margin-left: 0;
     }
     100% {
-      margin-left: -1600px;
+        margin-left: -1600px;
     }
-  }
+}
+
+.wave:nth-of-type(2) {
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+        swell 7s ease -1.25s infinite;
+}
+
+@keyframes swell {
+    0%,
+    100% {
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+}
