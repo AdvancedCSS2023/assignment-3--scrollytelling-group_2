@@ -194,6 +194,12 @@
   width: 100%;
 }
 
+.photo-card {
+  margin-top: 95vh;
+  height: 330px;
+  width: 580px;
+}
+
 * {
   margin: 0;
   padding: 0;
