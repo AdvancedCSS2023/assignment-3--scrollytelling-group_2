@@ -1,6 +1,8 @@
 $backgroundColorText: rgba(0, 0, 0, 0.527);
 $grayTextColor: rgba(202, 198, 198, 0.794);
 $blueColor: rgba(109, 189, 209, 0.292);
+$blackShadowColor: rgba(0, 0, 0, 0.3);
+$blueShadowColor: rgba(75, 151, 177, 0.7);
 
 body {
     background-color: rgba(235, 232, 226);
@@ -71,5 +73,5 @@ body {
 }
 
 .photo-card {
-    box-shadow: rgba(75, 151, 177, 0.7), rgba(0, 0, 0, 0.3);
+    box-shadow: $blueShadowColor, $blackShadowColor;
 }
