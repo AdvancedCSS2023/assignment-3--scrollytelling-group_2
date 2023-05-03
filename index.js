@@ -88,4 +88,7 @@ Replaced following javascript with snap-scrolling in CSS (scroll container scrol
 
 // * * * * Snizhana * * * *
 
-const section = document.querySelector(".section--wave");
+const section = document.querySelector('.section--wave');
+
+const handler = () => console.log('handle event');
+const intersectionObserver = new IntersectionObserver(handler, {});
