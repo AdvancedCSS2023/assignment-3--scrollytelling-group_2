@@ -496,7 +496,10 @@ body {
   font-size: 90%;
 }
 
-.text--consequences {
+.text--consequences,
+.text__content--wave,
+.text--climate-relating,
+.text--prediction {
   font-size: 20px;
   text-align: justify;
 }
