@@ -131,12 +131,7 @@
   flex-wrap: wrap;
 }
 
-.sections--snizhana {
-  scroll-snap-type: y mandatory;
-  overflow-y: auto;
-  height: 100vh;
-}
-.sections--snizhana section {
+section {
   height: 100vh;
   overflow: auto;
   scroll-snap-align: start;
