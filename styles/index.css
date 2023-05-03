@@ -150,6 +150,11 @@
   padding: 25px;
 }
 
+.text__content--black {
+  padding: 20px;
+  margin-top: 95vh;
+}
+
 * {
   margin: 0;
   padding: 0;

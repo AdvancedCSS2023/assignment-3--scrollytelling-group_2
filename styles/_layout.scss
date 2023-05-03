@@ -135,7 +135,7 @@
   flex-wrap: wrap;
 }
 
-// * * * * Snizhana * * * * * * 
+// * * * * Snizhana * * * * * *
 
 .sections--snizhana {
   scroll-snap-type: y mandatory;
@@ -155,4 +155,9 @@
 
 .text--consequences {
   padding: 25px;
+}
+
+.text__content--black {
+  padding: 20px;
+  margin-top: 95vh;
 }
