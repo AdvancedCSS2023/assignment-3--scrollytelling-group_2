@@ -166,13 +166,15 @@
 
 .text--consequences,
 .text__content--wave,
-.text__content--prediction {
+.text__content--prediction,
+.text--climate-relating {
     width: 40%;
 }
 
 .text--consequences,
 .text__content--wave,
-.text--prediction {
+.text--prediction,
+.text--climate-relating {
     padding: 25px;
 }
 .text--prediction {
@@ -189,4 +191,9 @@
 .text__content--wave {
     margin-left: 55%;
     margin-bottom: 20%;
+}
+
+.text--climate-relating {
+    margin-top: 20vh;
+    padding: 20px;
 }
