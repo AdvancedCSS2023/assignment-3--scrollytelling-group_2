@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+.scroll-container {
+  scroll-snap-type: y proximity;
+  overflow-y: auto;
+  height: 100vh;
+}
+
 .section__start--help {
   display: flex;
   justify-content: center;
@@ -29,28 +35,31 @@
 .laptop__screen--IO {
   position: static;
   top: 10px;
+  overflow-y: hidden;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 
 .laptop__screen {
   position: relative;
   top: 10px;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .content__container {
-  position: absolute;
+  overflow-y: auto;
+  scroll-snap-type: y proximity;
 }
 
 .browser {
-  position: sticky;
-  top: 0;
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
 .browser__url {
-  position: sticky;
-  top: 30px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -129,6 +138,31 @@
   transform: translateY(50vh);
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.content__container section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  height: 100%;
+  overflow: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.content__container section::-webkit-scrollbar {
+  display: none;
+}
+
+.text--consequences {
+  width: 40%;
+}
+
+.text--consequences {
+  padding: 25px;
+}
+
+.text__content--black {
+  padding: 20px;
+  margin-top: 95vh;
 }
 
 * {
@@ -238,10 +272,6 @@
 
 .fullscreen {
   transform: scale(0.7) rotate(45deg);
-}
-
-.content__container {
-  overflow-y: hidden;
 }
 
 .section {
@@ -401,6 +431,11 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.text__content--black {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: rgba(202, 198, 198, 0.794);
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -436,6 +471,11 @@ body {
 
 .fullscreen {
   font-size: 90%;
+}
+
+.text--consequences {
+  font-size: 20px;
+  text-align: justify;
 }
 
 @keyframes flagIn {
@@ -575,4 +615,28 @@ body {
   animation-duration: 1.2s;
   animation-delay: 0.6s;
   animation-iteration-count: infinite;
+}
+
+.section--consequences {
+  background-image: url(../assets/images/earth-energy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section--wave {
+  background-image: url(../assets/images/earth-in-water.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section--prediction {
+  background-image: url(../assets/images/hurricanes.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section--climate-relating {
+  background-image: url(../assets/images/energy-gw.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=index.css.map */

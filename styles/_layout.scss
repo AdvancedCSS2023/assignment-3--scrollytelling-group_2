@@ -1,25 +1,29 @@
+.scroll-container {
+    scroll-snap-type: y proximity;
+    overflow-y: auto;
+    height: 100vh;
+}
+
 // Section start
-.section__start--help{
+.section__start--help {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.flex__container--start{
+.flex__container--start {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
     justify-content: center;
     align-items: center;
-  }
-  
+}
 
-.flex-child--start.heading{
+.flex-child--start.heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
 }
 
 // Section story
@@ -34,95 +38,101 @@
 .laptop__screen--IO {
     position: static;
     top: 10px;
-  }
+    overflow-y: hidden;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
 .laptop__screen {
     position: relative;
     top: 10px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .content__container {
-    position: absolute;
-  }
+    overflow-y: auto;
+    scroll-snap-type: y proximity;
+}
 
 // Browser layout
-.browser{
-    position: sticky;
-    top: 0;
+.browser {
+    //   position: sticky;
+    //   top: 0;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.browser__url{ 
-    position: sticky;
-    top: 30px;
+.browser__url {
+    //   position: sticky;
+    //   top: 30px;
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.url__field{
+.url__field {
     margin-left: 1%;
     display: flex;
     align-items: center;
 }
-  
+
 .url__field p {
     margin-left: 10px;
 }
 
-.arrow{
+.arrow {
     margin-left: 1%;
 }
 
-.circle{
+.circle {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.--red{
+.--red {
     margin-left: 1vw;
     top: 0;
 }
-.--yellow{
+.--yellow {
     top: 0;
 }
-.--green{
+.--green {
     top: 0;
 }
 
-.browser__refresh svg{
+.browser__refresh svg {
     padding-left: 5px;
-  }
+}
 
-.headline--top{
+.headline--top {
     margin-top: 20vh;
 }
 
-
-// table and bills 
-.table-and-bills__container{
+// table and bills
+.table-and-bills__container {
     position: relative;
     padding-top: 100px;
 }
-  
-.bills__container{
-  position: absolute;
-  z-index: 1000;
-  margin-top: -50px;
-  margin-left: 60px;
+
+.bills__container {
+    position: absolute;
+    z-index: 1000;
+    margin-top: -50px;
+    margin-left: 60px;
 }
-  
+
 .bills--two {
     margin-left: -50px;
 }
-  
+
 .bills--three {
     margin-left: -50px;
 }
-  
+
 .table {
     position: relative;
 }
@@ -137,4 +147,31 @@
     gap: 10px;
     flex-wrap: wrap;
 }
-  
+
+// * * * * Snizhana * * * * * *
+
+.content__container section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 100%;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.text--consequences {
+    width: 40%;
+}
+
+.text--consequences {
+    padding: 25px;
+}
+
+.text__content--black {
+    padding: 20px;
+    margin-top: 95vh;
+}
