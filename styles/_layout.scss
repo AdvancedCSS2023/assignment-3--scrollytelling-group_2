@@ -164,15 +164,60 @@
     scrollbar-width: none; /* Firefox */
 }
 
-.text--consequences {
+.text--consequences,
+.text__content--wave,
+.text__content--prediction,
+.text--climate-relating {
     width: 40%;
 }
 
-.text--consequences {
+.text--consequences,
+.text__content--wave,
+.text--prediction,
+.text--climate-relating {
     padding: 25px;
 }
+.text--prediction {
+    margin-bottom: 15%;
+}
 
-.text__content--black {
+.text__content--black,
+.text__content--wave,
+.text__content--prediction {
     padding: 20px;
     margin-top: 95vh;
 }
+
+.text__content--wave {
+    margin-left: 55%;
+    margin-bottom: 20%;
+}
+
+.text--climate-relating {
+    margin-top: 20vh;
+    padding: 20px;
+}
+
+.text__container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.photo-card {
+    margin-top: 95vh;
+    height: 330px;
+    width: 580px;
+}
+
+.wave {
+    position: fixed;
+    bottom: 0px;
+    width: 6400px;
+    height: 198px;
+  }
+
+  .wave:nth-of-type(2) {
+    bottom: -20px;
+    opacity: 1;
+  }

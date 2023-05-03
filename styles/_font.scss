@@ -1,45 +1,48 @@
 body {
-  font-family: "Nunito", sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 // Section start
 #number__seven {
-  font-size: 90px;
+    font-size: 90px;
 }
 
 .text--normal {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 // Section story
 .flex-child p {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 // Section article
 
 .para-number h3 {
-  font-weight: bold;
-  font-size: 100px;
+    font-weight: bold;
+    font-size: 100px;
 }
 
 .para__background p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 //Browser
 .x {
-  font-size: 100%;
+    font-size: 100%;
 }
 .close {
-  font-size: 100%;
+    font-size: 100%;
 }
 .fullscreen {
-  font-size: 90%;
+    font-size: 90%;
 }
 
-// * * * * Snizhana * * * * 
+// * * * * Snizhana * * * *
 
-.text--consequences {
-  font-size: 20px;
-  text-align: justify;
+.text--consequences,
+.text__content--wave,
+.text--climate-relating,
+.text--prediction {
+    font-size: 20px;
+    text-align: justify;
 }
