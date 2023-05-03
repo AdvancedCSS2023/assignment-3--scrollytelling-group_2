@@ -52,7 +52,7 @@
 
 .content__container {
     overflow-y: auto;
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
 }
 
 // Browser layout
@@ -153,7 +153,8 @@
 .content__container section {
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     overflow: auto;
 
     &::-webkit-scrollbar {
