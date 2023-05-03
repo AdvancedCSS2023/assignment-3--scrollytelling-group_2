@@ -225,7 +225,7 @@ div.iceland {
   padding: 2%;
 }
 
-// * * * * Snizhana
+// * * * * Snizhana * * * 
 
 .sections--snizhana {
   scroll-snap-type: y mandatory;
@@ -237,4 +237,8 @@ div.iceland {
     overflow: auto;
     scroll-snap-align: start;
   }
+}
+
+.text--consequences {
+    width: 40%;
 }

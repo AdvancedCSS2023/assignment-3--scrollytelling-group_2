@@ -363,6 +363,10 @@ div.iceland {
   scroll-snap-align: start;
 }
 
+.text--consequences {
+  width: 40%;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
