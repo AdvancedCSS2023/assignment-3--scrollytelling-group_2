@@ -1,3 +1,10 @@
+.scroll-container {
+  scroll-snap-type: y proximity;
+  scroll-snap-stop: always;
+  overflow-y: auto;
+  height: 100vh;
+}
+
 // Section start
 .section__start--help {
   display: flex;
@@ -32,28 +39,33 @@
 .laptop__screen--IO {
   position: static;
   top: 10px;
+  overflow-y: hidden;
+  scroll-snap-align: start;
 }
 .laptop__screen {
   position: relative;
   top: 10px;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .content__container {
-  position: absolute;
+  overflow-y: auto;
 }
 
 // Browser layout
 .browser {
-  position: sticky;
-  top: 0;
+  //   position: sticky;
+  //   top: 0;
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
 .browser__url {
-  position: sticky;
-  top: 30px;
+  //   position: sticky;
+  //   top: 30px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -140,7 +152,7 @@
 section {
   height: 100vh;
   overflow: auto;
-  scroll-snap-align: start;
+  //   scroll-snap-align: start;
 }
 
 .text--consequences {
