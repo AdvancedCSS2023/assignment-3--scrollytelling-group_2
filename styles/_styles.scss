@@ -1,231 +1,233 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .unSticky__sensor {
-    width: 100%;
-    height: 1px;
-  }
+  width: 100%;
+  height: 1px;
+}
 
 // Section start
-.section__start{
-    height: 100vh;
-  
+.section__start {
+  height: 100vh;
 }
 
-.section__start--help{
-    width: 100%;
-    height: 100vh;
+.section__start--help {
+  width: 100%;
+  height: 100vh;
 }
 
-.flex__container--start{
-    position: relative;
-    opacity: 1; // 0 for script
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
+.flex__container--start {
+  position: relative;
+  opacity: 1; // 0 for script
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
 // Section story
-.section__story{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh; 
+.section__story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .section__story.--two .container--flex,
 .section__story.--four .container--flex,
-.section__story.--five .container--flex{ 
+.section__story.--five .container--flex {
   flex-wrap: wrap-reverse;
 }
 
-.section__story p{
-    max-width: 30ch;
-  }
+.section__story p {
+  max-width: 30ch;
+}
 
 // Laptop screen styles
 .laptop__screen {
-    width: 85vw;
-    height: 85vh;
-    border: 35px solid rgb(35, 35, 35);
-    overflow-y: hidden; 
-    margin: 0 auto;
-    border-radius: 10px;
+  width: 85vw;
+  height: 85vh;
+  border: 35px solid rgb(35, 35, 35);
+  overflow-y: hidden;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 // Browser styles
-.browser{
-    width: 100%;
-    height: 30px;
+.browser {
+  width: 100%;
+  height: 30px;
 }
 
-.circle{
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
 }
 
-.browser__url{
-    width: 100%;
-    height: 40px;  
+.browser__url {
+  width: 100%;
+  height: 40px;
 }
 
-.url__field{
-    width: 80%;
-    height: 25px;
-    border-radius: 15px; 
+.url__field {
+  width: 80%;
+  height: 25px;
+  border-radius: 15px;
 }
 
-.arrow svg{
-    width: 15px;
+.arrow svg {
+  width: 15px;
 }
 
-.arrow.--right{
-    transform: rotate(180deg);
-    margin-bottom: 11px;
+.arrow.--right {
+  transform: rotate(180deg);
+  margin-bottom: 11px;
 }
 
-.browser__refresh svg{
-    width: 20px;
-    opacity: 0.8;
+.browser__refresh svg {
+  width: 20px;
+  opacity: 0.8;
 }
 
-.browser:hover .functions{
-    display: block;
+.browser:hover .functions {
+  display: block;
 }
 
-.functions{
-    display: none;
+.functions {
+  display: none;
 }
-.x{
-    margin-top: -2px;
-    margin-left: 1px;
+.x {
+  margin-top: -2px;
+  margin-left: 1px;
 }
-.fullscreen{
-    transform: scale(0.7) rotate(45deg);
+.fullscreen {
+  transform: scale(0.7) rotate(45deg);
 }
-
-
 
 .content__container {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 // Section for article
-.section{
-    width: 85vw;
-    height: 85vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-    opacity: 1;
+.section {
+  width: 85vw;
+  height: 85vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  opacity: 1;
 }
 
 .section--first {
-    height: 100%;
-    background-image: url(../assets/images/windmill.jpg); 
+  height: 100%;
+  background-image: url(../assets/images/windmill.jpg);
 }
 
 .section--fifth {
-    height: 100%;
-    background-image: url(../assets/images/solar-panels.jpg); 
+  height: 100%;
+  background-image: url(../assets/images/solar-panels.jpg);
 }
 
 .section--sixth {
-    height: 100%;
-    background-image: url(../assets/images/global.jpg); 
+  height: 100%;
+  background-image: url(../assets/images/global.jpg);
 }
 
-.para{
-    height: 100vh;
-    max-width: 60ch;
-    margin: 0 auto; 
-    transform: translateY(50vh);
+.para {
+  height: 100vh;
+  max-width: 60ch;
+  margin: 0 auto;
+  transform: translateY(50vh);
 }
 
-.para50{
-    height: 50vh;
+.para50 {
+  height: 50vh;
 }
 
 .para__background {
-    padding: 2%;
-  }
+  padding: 2%;
+}
 .para__background p,
-.para__background h2{
-    opacity: 1;
-    color: white;
-    line-height: 1.4;
+.para__background h2 {
+  opacity: 1;
+  color: white;
+  line-height: 1.4;
 }
 
-.para-number__container{
-    max-width: 10%;
-    margin: 0 auto
+.para-number__container {
+  max-width: 10%;
+  margin: 0 auto;
 }
 
-.para-number{
-    padding: 2%
+.para-number {
+  padding: 2%;
 }
 
-.para-number h3{
-    text-align: center;
+.para-number h3 {
+  text-align: center;
 }
 
 .para__background {
-    text-align: center;
+  text-align: center;
 }
 
-.actions{
-    margin-bottom: 50vh;
+.actions {
+  margin-bottom: 50vh;
 }
 
-.denmark{
-margin-top: -35vh;
-
+.denmark {
+  margin-top: -35vh;
 }
 
-div.iceland{
-    height: 50vh;
+div.iceland {
+  height: 50vh;
 }
 
 // table and bills
 .bills {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .table {
-    width: 500px;
-    height: auto;
+  width: 500px;
+  height: auto;
 }
 
 // flex-child img
 .flex-child img {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }
 
 // countries section
 
 .flex_container_flag {
-    height: 100vh;
+  height: 100vh;
 }
 
-  
 .flex_container_flag img {
-    width: 200px;
-    height: 150px;
+  width: 200px;
+  height: 150px;
 }
 
 .flag_text {
-    max-width: 60ch;
-    font-size: 20px;
-    opacity: 1;
-    line-height: 1.4;
-    padding: 2%;
+  max-width: 60ch;
+  font-size: 20px;
+  opacity: 1;
+  line-height: 1.4;
+  padding: 2%;
+}
+
+// * * * * Snizhana
+
+.sections--snizhana {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
 }

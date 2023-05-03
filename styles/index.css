@@ -352,6 +352,11 @@ div.iceland {
   padding: 2%;
 }
 
+.sections--snizhana {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
