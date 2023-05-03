@@ -689,6 +689,14 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
 .content__container section {
   background-attachment: fixed;
   background-repeat: no-repeat;
