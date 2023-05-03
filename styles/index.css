@@ -355,6 +355,7 @@ div.iceland {
 .sections--snizhana {
   scroll-snap-type: y mandatory;
   overflow-y: auto;
+  height: 100vh;
 }
 
 body {
