@@ -357,8 +357,7 @@ div.iceland {
   overflow-y: auto;
   height: 100vh;
 }
-
-section {
+.sections--snizhana section {
   height: 100vh;
   overflow: auto;
   scroll-snap-align: start;
