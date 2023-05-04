@@ -3,9 +3,10 @@ $grayTextColor: rgba(230, 225, 225, 0.886);
 $blueColor: rgba(16, 170, 213, 0.466);
 $blackShadowColor: rgba(0, 0, 0, 0.3);
 $blueShadowColor: rgba(75, 151, 177, 0.7);
+$backgroundColorBody: rgba(235, 232, 226);
 
 body {
-    background-color: rgba(235, 232, 226);
+    background-color: $backgroundColorBody;
 }
 
 // Article
