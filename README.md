@@ -1,6 +1,25 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/E1TYCvbT)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10947595&assignment_repo_type=AssignmentRepo)
 
+## What the project does 
+The project is a scrollytelling website that tells the story of a man who is struggling with high energy bills and is searching for ways to reduce them. 
+
+The website is based on the United Nations' Sustainable Development Goal 7, which is to ensure access to affordable, reliable, sustainable, and modern energy for all. 
+
+The website presents information about this goal and provides various solutions that can help the man and others like him reduce their energy bills while also promoting clean and sustainable energy sources. 
+
+Through an engaging and interactive storytelling format, the project aims to raise awareness about the importance of clean and affordable energy and inspire people to take action towards achieving this goal.
+
+## Why the project is useful 
+
+This project raises awareness about the United Nations Sustainable Development Goal 7. By highlighting the importance of this goal, the project helps to promote a greater understanding of the need for clean and sustainable energy sources.
+ 
+This scrollytelling provides an engaging and interactive way to educate people about the importance of reducing energy bills and adopting more sustainable energy practices. Through the story of a man who is struggling with high energy bills, the website provides relatable examples of the challenges faced by individuals and families who are trying to reduce their energy usage and expenses.
+ 
+We also offer practical solutions that individuals can implement to reduce their energy bills and promote clean and sustainable energy practices. By providing clear and actionable advice, the website empowers individuals to take meaningful action towards achieving Sustainable Development Goal 7.
+ 
+Overall, the project is a tool for promoting awareness and inspiring action towards achieving affordable and clean energy for all.
+
 ## Which technology is used
 
 Just like our previous assignment, we utilized a range of technologies to deliver a seamless user experience. One of the core technologies we used is HTML, which provided the foundation for the markup and structure of the web page. With HTML, we structured and organized the content in a logical and intuitive manner, resulting in an easy-to-use interface for the users.
