@@ -1,10 +1,17 @@
+.section--first {
+    background-image: url(../assets/images/windmill.jpg);
+}
+
+.section--fifth {
+    background-image: url(../assets/images/solar-panels.jpg);
+}
+
+.section--sixth {
+    background-image: url(../assets/images/global.jpg);
+}
+
 // * * *  Snizhana * * *
 
-.content__container section {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .section--consequences {
     background-image: url(../assets/images/earth-energy.jpg);
 }
