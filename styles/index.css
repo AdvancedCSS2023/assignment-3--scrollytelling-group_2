@@ -440,10 +440,7 @@ body {
   background-color: rgb(235, 232, 226);
 }
 
-.para__background {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
+.para__background,
 .para-number {
   background-color: rgba(0, 0, 0, 0.7);
 }

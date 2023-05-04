@@ -4,17 +4,16 @@ $blueColor: rgba(16, 170, 213, 0.466);
 $blackShadowColor: rgba(0, 0, 0, 0.3);
 $blueShadowColor: rgba(75, 151, 177, 0.7);
 $backgroundColorBody: rgba(235, 232, 226);
+$paraColor: rgba(0, 0, 0, 0.7);
 
 body {
     background-color: $backgroundColorBody;
 }
 
 // Article
-.para__background {
-    background-color: rgba(0, 0, 0, 0.7);
-}
+.para__background,
 .para-number {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: $paraColor;
 }
 
 .para-number h3 {
