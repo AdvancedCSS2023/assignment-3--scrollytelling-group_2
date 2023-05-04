@@ -40,6 +40,9 @@ paraSpan.forEach((el) => observerSceneOne.observe(el));
 const energyBill = document.querySelectorAll('.energy__bill');
 energyBill.forEach((el) => observerSceneOne.observe(el));
 
+const mainThought = document.querySelectorAll('.thought-bubble');
+mainThought.forEach((el) => observerSceneOne.observe(el));
+
 
 
 /* * * * * * * * 
@@ -52,7 +55,7 @@ const sections = document.querySelectorAll('.unSticky__sensor');
 
 let laptopScreenIO = document.querySelector('.laptop__screen--IO');
 const options = {};
-
+  
 const getSticky = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {

@@ -221,3 +221,36 @@ div.iceland {
   line-height: 1.4;
   padding: 2%;
 }
+
+.section__story.--afterResearch .container--flex .flex-child img {
+  display: block;
+}
+.--afterResearch .container--flex{
+  margin-top: 25vh;
+}
+.happy-desk img{
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.thought-bubble img{
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+
+}
+.bike{
+  margin-top: 10vh;
+}
+
+.bike img{
+  width: 250px;
+  height: auto;
+
+}
+.section__story.--end{
+  display: block;
+  max-height: 100vh;
+  
+}

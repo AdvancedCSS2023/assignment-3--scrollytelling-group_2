@@ -190,3 +190,37 @@ $animation--delay: 0.5s;
 .hide {
     display: none;
 }
+
+.animated.thought-bubble
+{
+  opacity: 0;
+  animation-name: bubble;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+@keyframes bubble{
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.bike{
+    animation: biking 10s infinite ease-in forwards;
+}
+
+@keyframes biking{
+    from{
+      transform: translateX(-20vw);
+    }
+    to{
+      transform: translateX(105vw);
+  
+    }
+  }
