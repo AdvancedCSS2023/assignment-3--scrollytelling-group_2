@@ -23,10 +23,18 @@ Overall, the project is a tool for promoting awareness and inspiring action towa
 ## How users can get started with the project
 
 To work with the project, the developer can get access to it though assignment-3--scrollytelling-group_2 (Public) repository at the GitHub and make a fork of the repository. Then developer needs to clone the fork repository to his own laptop to work on it. Changes can be made into a pull request; project developers can then merge this pull request into the original project repository. 
-To add story features, the developer can add story section elements that explain in more detail how the main character conducts his own analysis and makes a choice about the best option for implementing renewable energy for himself, as well as a continuation of the story about profitability of investing in the renewable energy sources. 
+
+To add story features, the developer can add story `section` elements that explain in more detail how the main character conducts his own analysis and makes a choice about the best option for implementing renewable energy for himself, as well as a continuation of the story about profitability of investing in the renewable energy sources. 
 
 For a reader or user of the website, it is enough to simply open the link to the website and study the topic of Affordable and clean energy. 
 
+## Where users can get help with your project
+
+We understand that using a new project can sometimes be overwhelming, which is why we offer several resources to help you navigate and troubleshoot any issues you may encounter.
+
+First and foremost, our comprehensive documentation provides step-by-step instructions on how to use our project to prevent any misunderstanding. We've designed our documentation to be easily accessible and well-organized, so you can quickly find the information you need.
+
+If you need further assistance, we offer email support where you can contact us directly with any questions or concerns. We are dedicated to provide prompt and helpful solutions to any issues you may be experiencing.
 
 ## Which technology is used
 
