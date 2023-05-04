@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
 .scroll-container {
   scroll-snap-type: y proximity;
-  overflow-y: auto;
   height: 100vh;
 }
 
@@ -436,6 +435,40 @@ div.iceland {
   padding: 2%;
 }
 
+.section__story.--afterResearch .container--flex .flex-child img {
+  display: block;
+}
+
+.--afterResearch .container--flex {
+  margin-top: 25vh;
+}
+
+.happy-desk img {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+
+.thought-bubble img {
+  width: 500px;
+  height: auto;
+  max-width: 100%;
+}
+
+.bike {
+  margin-top: 10vh;
+}
+
+.bike img {
+  width: 250px;
+  height: auto;
+}
+
+.section__story.--end {
+  display: block;
+  max-height: 100vh;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
@@ -721,6 +754,36 @@ body {
   display: none;
 }
 
+.animated.thought-bubble {
+  opacity: 0;
+  animation-name: bubble;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes bubble {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.bike {
+  animation: biking 10s infinite ease-in forwards;
+}
+
+@keyframes biking {
+  from {
+    transform: translateX(-20vw);
+  }
+  to {
+    transform: translateX(105vw);
+  }
+}
 .content__container section {
   background-attachment: fixed;
   background-repeat: no-repeat;
