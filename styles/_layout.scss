@@ -169,6 +169,13 @@
 .text__content--prediction,
 .text--climate-relating {
     width: 40%;
+    min-width: 400px;
+}
+
+.text--wave {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .text--consequences,
@@ -185,11 +192,15 @@
 .text__content--wave,
 .text__content--prediction {
     padding: 20px;
+}
+
+.text__content--black,
+.text__content--wave {
+    padding: 20px;
     margin-top: 95vh;
 }
 
 .text__content--wave {
-    margin-left: 55%;
     margin-bottom: 20%;
 }
 
@@ -200,12 +211,17 @@
 
 .text__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
+    margin-top: 95vh;
+    flex-wrap: wrap;
+
+    * {
+        margin-top: 12px;
+    }
 }
 
 .photo-card {
-    margin-top: 95vh;
     height: 330px;
     width: 580px;
 }
@@ -228,28 +244,26 @@
     left: 0px;
 }
 
-.pop-up{
+.pop-up {
     height: 100vh;
     width: 100%;
     display: none;
-  }
+}
 
 @media screen and (orientation: portrait) {
-    *{
+    * {
         overflow: hidden;
     }
-    .pop-up{
+    .pop-up {
         display: block;
     }
-    .pop-up__text{
+    .pop-up__text {
         font-size: 50px;
         text-align: center;
         margin-top: 10vh;
     }
 
-    .pop-up img{
+    .pop-up img {
         width: 100%;
     }
-
-
-  }
+}
