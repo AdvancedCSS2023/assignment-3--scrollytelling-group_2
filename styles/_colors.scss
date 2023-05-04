@@ -22,6 +22,10 @@ $borderColorLaptop: rgb(35, 35, 35);
 body {
     background-color: $backgroundColorBody;
 }
+.pop-up{
+    background-color: $backgroundColorBody;
+
+}
 
 // Article
 .para__background,
@@ -94,7 +98,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark){
-    body{
+    body,  .pop-up{
         background-color: $darkMode;
     }
     .flex-child p{
@@ -130,9 +134,10 @@ body {
     .--end div p{
         color: $whiteColor;
     }
+
+    .pop-up p{
+     color: $whiteColor;
+    }
 }
 
-.pop-up{
-    background-color: $backgroundColorBody;
 
-}

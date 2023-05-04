@@ -500,6 +500,10 @@ body {
   background-color: rgb(235, 232, 226);
 }
 
+.pop-up {
+  background-color: rgb(235, 232, 226);
+}
+
 .para__background,
 .para-number,
 .flag_text {
@@ -566,7 +570,7 @@ body {
 }
 
 @media (prefers-color-scheme: dark) {
-  body {
+  body, .pop-up {
     background-color: rgb(53, 55, 65);
   }
   .flex-child p {
@@ -600,11 +604,10 @@ body {
   .--end div p {
     color: white;
   }
+  .pop-up p {
+    color: white;
+  }
 }
-.pop-up {
-  background-color: rgb(235, 232, 226);
-}
-
 body {
   font-family: "Nunito", sans-serif;
 }
