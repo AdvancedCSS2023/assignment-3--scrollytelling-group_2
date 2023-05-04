@@ -42,14 +42,19 @@ body {
     background-color: $paraColor;
 }
 
+.para__background p,
+.para__background h2 {
+    color: $whiteColor;
+}
+
 .para-number__container {
-    border: 5px solid $borderColorPara;
-    box-shadow: 0 2px 5px $shadowColorPara;
+    border: $borderColorPara;
+    box-shadow: $shadowColorPara;
 }
 
 .laptop__screen {
     border: $borderColorLaptop;
-  }
+}
 
 .para-number h3 {
     color: $whiteColor;
