@@ -13,6 +13,8 @@ $greenColor: rgb(99, 197, 85);
 $darkMode: rgb(53, 55, 65);
 
 
+$borderColorPara: #ccc; 
+$shadowColorPara: rgba(0,0,0,0.3);
 
 body {
     background-color: $backgroundColorBody;
@@ -40,8 +42,8 @@ body {
 }
 
 .para-number__container {
-    border: 5px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border: 5px solid $borderColorPara;
+    box-shadow: 0 2px 5px $shadowColorPara;
 }
 
 .para-number h3 {
