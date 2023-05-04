@@ -486,21 +486,18 @@ body {
 }
 
 .text__content--black {
-  background-color: rgba(0, 0, 0, 0.532);
-  color: rgba(202, 198, 198, 0.843);
+  background-color: rgba(0, 0, 0, 0.667);
+  color: rgba(230, 225, 225, 0.886);
 }
 
 .text__content--wave {
-  background-color: rgba(10, 132, 166, 0.466);
+  background-color: rgba(16, 170, 213, 0.466);
 }
 
+.text--climate-relating,
 .text__content--prediction {
-  background-color: rgba(10, 132, 166, 0.466);
-}
-
-.text--climate-relating {
-  background-color: rgba(0, 0, 0, 0.532);
-  color: rgba(202, 198, 198, 0.843);
+  background-color: rgba(0, 0, 0, 0.667);
+  color: rgba(230, 225, 225, 0.886);
 }
 
 .photo-card {
