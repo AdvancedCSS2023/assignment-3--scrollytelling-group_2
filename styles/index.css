@@ -441,7 +441,8 @@ body {
 }
 
 .para__background,
-.para-number {
+.para-number,
+.flag_text {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -465,21 +466,14 @@ body {
   background-color: rgb(99, 197, 85);
 }
 
+.content__container,
+.url__field,
 .browser__url {
-  background-color: rgb(255, 255, 255);
-}
-
-.url__field {
-  background-color: rgb(244, 245, 247);
-}
-
-.content__container {
   background-color: white;
 }
 
 .flag_text {
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .text__content--black {
