@@ -1,6 +1,6 @@
-$backgroundColorText: rgba(0, 0, 0, 0.527);
-$grayTextColor: rgba(202, 198, 198, 0.794);
-$blueColor: rgba(109, 189, 209, 0.292);
+$backgroundColorText: rgba(0, 0, 0, 0.667);
+$grayTextColor: rgba(230, 225, 225, 0.886);
+$blueColor: rgba(16, 170, 213, 0.466);
 $blackShadowColor: rgba(0, 0, 0, 0.3);
 $blueShadowColor: rgba(75, 151, 177, 0.7);
 
@@ -68,11 +68,8 @@ body {
     background-color: $blueColor;
 }
 
+.text--climate-relating,
 .text__content--prediction {
-    background-color: $blueColor;
-}
-
-.text--climate-relating {
     background-color: $backgroundColorText;
     color: $grayTextColor;
 }
