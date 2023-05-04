@@ -105,7 +105,7 @@ const handler = (entries) => {
 };
 
 const intersectionObserver = new IntersectionObserver(handler, {
-    threshold: 0.6,
+    // threshold: 0.6,
     root: document.querySelector('.content__container'),
 });
 
