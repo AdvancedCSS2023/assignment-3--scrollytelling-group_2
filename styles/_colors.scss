@@ -13,6 +13,9 @@ $greenColor: rgb(99, 197, 85);
 $darkMode: rgb(53, 55, 65);
 
 
+$borderColorPara: #ccc; 
+$shadowColorPara: rgba(0,0,0,0.3);
+$borderColorLaptop: rgb(35, 35, 35);
 
 body {
     background-color: $backgroundColorBody;
@@ -39,9 +42,18 @@ body {
     background-color: $paraColor;
 }
 
+.para__background p,
+.para__background h2 {
+    color: $whiteColor;
+}
+
 .para-number__container {
-    border: 5px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    border: $borderColorPara;
+    box-shadow: $shadowColorPara;
+}
+
+.laptop__screen {
+    border: $borderColorLaptop;
 }
 
 .para-number h3 {
