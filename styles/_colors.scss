@@ -10,9 +10,26 @@ $browserColor: rgb(232, 234, 237);
 $redColor: rgb(236, 104, 93);
 $yellowColor: rgb(246, 190, 79);
 $greenColor: rgb(99, 197, 85);
+$darkMode: rgb(53, 55, 65);
+
+
 
 body {
     background-color: $backgroundColorBody;
+}
+@media (prefers-color-scheme: dark){
+    body{
+        background-color: $darkMode;
+    }
+    .flex-child p{
+        color: $whiteColor;
+    }
+
+    .flex__child--start {
+        color: $whiteColor
+
+    }
+
 }
 
 // Article

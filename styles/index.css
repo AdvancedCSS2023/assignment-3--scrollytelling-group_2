@@ -472,6 +472,17 @@ body {
   background-color: rgb(235, 232, 226);
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgb(53, 55, 65);
+  }
+  .flex-child p {
+    color: white;
+  }
+  .flex__child--start {
+    color: white;
+  }
+}
 .para__background,
 .para-number,
 .flag_text {
