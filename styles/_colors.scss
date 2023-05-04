@@ -15,6 +15,7 @@ $darkMode: rgb(53, 55, 65);
 
 $borderColorPara: #ccc; 
 $shadowColorPara: rgba(0,0,0,0.3);
+$borderColorLaptop: rgb(35, 35, 35);
 
 body {
     background-color: $backgroundColorBody;
@@ -45,6 +46,10 @@ body {
     border: 5px solid $borderColorPara;
     box-shadow: 0 2px 5px $shadowColorPara;
 }
+
+.laptop__screen {
+    border: $borderColorLaptop;
+  }
 
 .para-number h3 {
     color: $whiteColor;
