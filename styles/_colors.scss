@@ -6,6 +6,7 @@ $blueShadowColor: rgba(75, 151, 177, 0.7);
 $backgroundColorBody: rgba(235, 232, 226);
 $paraColor: rgba(0, 0, 0, 0.7);
 $whiteColor: white;
+$browserColor: rgb(232, 234, 237);
 
 body {
     background-color: $backgroundColorBody;
@@ -23,7 +24,7 @@ body {
 }
 // Browser colors
 .browser {
-    background-color: rgb(232, 234, 237);
+    background-color: $browserColor;
 }
 
 .--red {
