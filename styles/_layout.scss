@@ -211,13 +211,19 @@
 }
 
 .wave {
-    position: fixed;
-    bottom: 0px;
+    position: absolute;
     width: 6400px;
     height: 198px;
-  }
-
-  .wave:nth-of-type(2) {
-    bottom: -20px;
     opacity: 1;
-  }
+    bottom: 0px;
+    left: 0px;
+}
+.wave:nth-of-type(2) {
+    bottom: -30px;
+}
+
+.ocean {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}

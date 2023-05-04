@@ -45,9 +45,11 @@ const sections = document.querySelectorAll('.unSticky__sensor');
 let laptopScreenIO = document.querySelector('.laptop__screen--IO');
 const options = {};
 
-/* Replaced following javascript with snap-scrolling in CSS (scroll container scrolls freely
+/* * * * * * * * 
+Replaced following javascript with snap-scrolling in CSS (scroll container scrolls freely
   until it reaches the snap point on the laptop screen, then stops, scrolls through laptop content,
   then continues */
+
 // const elementToObserve = document.querySelector(".laptop__screen");
 
 // const getSticky = new IntersectionObserver(
@@ -83,3 +85,28 @@ const options = {};
 // sections.forEach((section) => {
 //   unSticky.observe(section);
 // });
+
+// * * * * Snizhana * * * *
+
+const section = document.querySelector('.section--wave');
+
+const handler = (entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            const wave = document.querySelector('.ocean');
+            wave.classList.add('show');
+            wave.classList.remove('hide');
+        } else {
+            const wave = document.querySelector('.ocean');
+            wave.classList.add('hide');
+            wave.classList.remove('show');
+        }
+    });
+};
+
+const intersectionObserver = new IntersectionObserver(handler, {
+    // threshold: 0.6,
+    root: document.querySelector('.content__container'),
+});
+
+intersectionObserver.observe(section);

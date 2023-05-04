@@ -182,3 +182,11 @@ $animation--delay: 0.5s;
         transform: translate3d(0, 5px, 0);
     }
 }
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
