@@ -40,51 +40,52 @@ paraSpan.forEach((el) => observerSceneOne.observe(el));
 const energyBill = document.querySelectorAll('.energy__bill');
 energyBill.forEach((el) => observerSceneOne.observe(el));
 
-const sections = document.querySelectorAll('.unSticky__sensor');
 
-let laptopScreenIO = document.querySelector('.laptop__screen--IO');
-const options = {};
 
 /* * * * * * * * 
 Replaced following javascript with snap-scrolling in CSS (scroll container scrolls freely
   until it reaches the snap point on the laptop screen, then stops, scrolls through laptop content,
   then continues */
 
-// const elementToObserve = document.querySelector(".laptop__screen");
+const elementToObserve = document.querySelector(".content__container");
+const sections = document.querySelectorAll('.unSticky__sensor');
 
-// const getSticky = new IntersectionObserver(
-//   (entries) => {
-//     entries.forEach((entry) => {
-//       if (entry.isIntersecting && entry.intersectionRatio >= 1) {
-//         console.log("Element is fully visible");
-//         laptopScreenIO.style.position = "sticky";
-//         // elementToObserve.style.overflow ='auto'
-//       } else {
-//         // elementToObserve.style.overflow ='hidden'
-//         laptopScreenIO.style.position = "static";
-//       }
-//     });
-//   },
-//   { threshold: [1] }
-// );
+let laptopScreenIO = document.querySelector('.laptop__screen--IO');
+const options = {};
 
-// getSticky.observe(elementToObserve);
+const getSticky = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting && entry.intersectionRatio >= 1) {
+        console.log("Element is fully visible");
+        laptopScreenIO.style.position = "sticky";
+        elementToObserve.style.overflow ='auto'
+      } else {
+        elementToObserve.style.overflow ='hidden'
+        laptopScreenIO.style.position = "static";
+      }
+    });
+  },
+  { threshold: [1] }
+);
 
-// const headline = document.querySelectorAll(".headline--top");
+getSticky.observe(laptopScreenIO);
 
-// const unSticky = new IntersectionObserver(function (entries, observer) {
-//   entries.forEach((entry) => {
-//     if (!entry.isIntersecting) {
-//       return;
-//     }
+const headline = document.querySelectorAll(".headline--top");
 
-//     laptopScreenIO.style.position = "static";
-//   });
-// }, options);
+const unSticky = new IntersectionObserver(function (entries, observer) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    }
 
-// sections.forEach((section) => {
-//   unSticky.observe(section);
-// });
+    laptopScreenIO.style.position = "static";
+  });
+}, options);
+
+sections.forEach((section) => {
+  unSticky.observe(section);
+});
 
 // * * * * Snizhana * * * *
 
