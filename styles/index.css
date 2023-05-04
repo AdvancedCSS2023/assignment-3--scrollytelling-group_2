@@ -716,6 +716,14 @@ body {
     transform: translate3d(0, 5px, 0);
   }
 }
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 .content__container section {
   background-attachment: fixed;
   background-repeat: no-repeat;
