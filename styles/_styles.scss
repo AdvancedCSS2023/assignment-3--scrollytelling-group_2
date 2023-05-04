@@ -157,14 +157,15 @@
 }
 
 .para-number__container {
-  max-width: 10%;
+  max-width: 600px;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .para-number {
   padding: 2%;
 }
-
+  
 .para-number h3 {
   text-align: center;
 }

@@ -22,6 +22,11 @@ body {
     background-color: $paraColor;
 }
 
+.para-number__container {
+    border: 5px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
 .para-number h3 {
     color: $whiteColor;
 }
