@@ -119,6 +119,30 @@ $animation--delay: 0.5s;
     background: linear-gradient(90deg, #1ad136 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
     background-position: 100% 0;
+
+    &.gold {
+        background-image: linear-gradient(
+            90deg,
+            rgb(99, 73, 8) 50%,
+            rgba(255, 255, 255, 0) 50%
+        );
+    }
+
+    &.blazing {
+        background-image: linear-gradient(
+            90deg,
+            rgb(121, 204, 243) 50%,
+            rgba(255, 255, 255, 0) 50%
+        ); 
+    }
+
+    &.dark-blue {
+        background-image: linear-gradient(
+            90deg,
+            rgb(10, 91, 129) 50%,
+            rgba(255, 255, 255, 0) 50%
+        );  
+    }
 }
 
 @keyframes energyBill {
@@ -191,46 +215,43 @@ $animation--delay: 0.5s;
     display: none;
 }
 
-.animated.thought-bubble
-{
-  opacity: 0;
-  animation-name: bubble;
-  animation-duration: 2s;
-  animation-delay: 0.5s;
-  animation-fill-mode: both;
-}
-@keyframes bubble{
-  from {
+.animated.thought-bubble {
     opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
+    animation-name: bubble;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+@keyframes bubble {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
 
-  to {
-    opacity: 1;
-    transform: none;
-  }
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
 
-.bike{
+.bike {
     animation: biking 10s infinite ease-in forwards;
 }
 
-@keyframes biking{
-    from{
-      transform: translateX(-20vw);
+@keyframes biking {
+    from {
+        transform: translateX(-20vw);
     }
-    to{
-      transform: translateX(105vw);
-  
+    to {
+        transform: translateX(105vw);
     }
-  }
+}
 
-  @media (prefers-reduced-motion){
-
-    .animated.inToLeft{
-    animation: none;
-    transform: translate3d(0, 0, 0) skewX(0deg);
-    opacity: 1;
+@media (prefers-reduced-motion) {
+    .animated.inToLeft {
+        animation: none;
+        transform: translate3d(0, 0, 0) skewX(0deg);
+        opacity: 1;
     }
 
     .animated.energy__bill {
@@ -243,8 +264,7 @@ $animation--delay: 0.5s;
     .animated.flex__container--start {
         animation: none;
     }
-    .animated.thought-bubble
-    {
+    .animated.thought-bubble {
         animation: none;
         opacity: 1;
     }
@@ -254,16 +274,15 @@ $animation--delay: 0.5s;
             transform: translate(100%) scale(1);
             opacity: 1;
         }
-    
+
         80% {
             transform: translateX(0px) scale(1);
             opacity: 1;
         }
-    
+
         100% {
             transform: scale(1);
             opacity: 1;
         }
     }
-
-  }
+}
