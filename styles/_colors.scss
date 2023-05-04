@@ -7,6 +7,9 @@ $backgroundColorBody: rgba(235, 232, 226);
 $paraColor: rgba(0, 0, 0, 0.7);
 $whiteColor: white;
 $browserColor: rgb(232, 234, 237);
+$redColor: rgb(236, 104, 93);
+$yellowColor: rgb(246, 190, 79);
+$greenColor: rgb(99, 197, 85);
 
 body {
     background-color: $backgroundColorBody;
@@ -28,13 +31,13 @@ body {
 }
 
 .--red {
-    background-color: rgb(236, 104, 93);
+    background-color: $redColor;
 }
 .--yellow {
-    background-color: rgb(246, 190, 79);
+    background-color: $yellowColor;
 }
 .--green {
-    background-color: rgb(99, 197, 85);
+    background-color: $greenColor;
 }
 
 .content__container,
