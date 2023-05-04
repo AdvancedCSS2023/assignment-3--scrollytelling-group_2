@@ -43,51 +43,44 @@ energyBill.forEach((el) => observerSceneOne.observe(el));
 const mainThought = document.querySelectorAll('.thought-bubble');
 mainThought.forEach((el) => observerSceneOne.observe(el));
 
-
-
-/* * * * * * * * 
-Replaced following javascript with snap-scrolling in CSS (scroll container scrolls freely
-  until it reaches the snap point on the laptop screen, then stops, scrolls through laptop content,
-  then continues */
-
-const elementToObserve = document.querySelector(".content__container");
+const elementToObserve = document.querySelector('.content__container');
 const sections = document.querySelectorAll('.unSticky__sensor');
 
 let laptopScreenIO = document.querySelector('.laptop__screen--IO');
 const options = {};
-  
+
 const getSticky = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting && entry.intersectionRatio >= 1) {
-        console.log("Element is fully visible");
-        laptopScreenIO.style.position = "sticky";
-        elementToObserve.style.overflow ='auto'
-      } else {
-        elementToObserve.style.overflow ='hidden'
-        laptopScreenIO.style.position = "static";
-      }
-    });
-  },
-  { threshold: [1] }
+    (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 1) {
+                console.log('Element is fully visible');
+                laptopScreenIO.style.position = 'sticky';
+                elementToObserve.style.overflow = 'auto';
+            } else {
+                elementToObserve.style.overflow = 'hidden';
+                laptopScreenIO.style.position = 'static';
+            }
+        });
+    },
+    { threshold: [1] }
 );
 
 getSticky.observe(laptopScreenIO);
 
-const headline = document.querySelectorAll(".headline--top");
+const headline = document.querySelectorAll('.headline--top');
 
 const unSticky = new IntersectionObserver(function (entries, observer) {
-  entries.forEach((entry) => {
-    if (!entry.isIntersecting) {
-      return;
-    }
+    entries.forEach((entry) => {
+        if (!entry.isIntersecting) {
+            return;
+        }
 
-    laptopScreenIO.style.position = "static";
-  });
+        laptopScreenIO.style.position = 'static';
+    });
 }, options);
 
 sections.forEach((section) => {
-  unSticky.observe(section);
+    unSticky.observe(section);
 });
 
 // * * * * Snizhana * * * *
@@ -109,7 +102,6 @@ const handler = (entries) => {
 };
 
 const intersectionObserver = new IntersectionObserver(handler, {
-    // threshold: 0.6,
     root: document.querySelector('.content__container'),
 });
 
