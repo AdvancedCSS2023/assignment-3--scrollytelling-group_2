@@ -324,6 +324,12 @@ div.iceland {
   flex-wrap: wrap;
 }
 
+.para__background.clean-energy {
+  max-width: 40%;
+  margin-top: 20vh;
+  opacity: 0.7;
+}
+
 .content__container section {
   height: auto;
   min-height: 100%;
@@ -455,6 +461,10 @@ body {
   background-color: rgb(235, 232, 226);
 }
 
+.section--cover {
+  background: linear-gradient(to right, #93c6ef, rgb(236, 183, 126) 70%, #4CAF50);
+}
+
 .para__background,
 .para-heading,
 .flag_text {
@@ -570,7 +580,7 @@ body {
 }
 
 #number__seven {
-  font-size: 90px;
+  font-size: 200px;
 }
 
 .text--normal {
@@ -579,6 +589,10 @@ body {
 
 .flex-child p {
   font-size: 40px;
+}
+
+.para__background.clean-energy p {
+  font-size: 50px;
 }
 
 .para-heading h3 {
