@@ -468,7 +468,7 @@ body {
 .para__background,
 .para-heading,
 .flag_text {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.956);
 }
 
 .para__background p,
@@ -614,7 +614,7 @@ body {
 }
 
 .para__background {
-  text-align: center;
+  text-align: justify;
 }
 
 .flag_text {
