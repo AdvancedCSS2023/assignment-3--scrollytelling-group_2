@@ -1,32 +1,45 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/E1TYCvbT)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10947595&assignment_repo_type=AssignmentRepo)
 
-## What the project does 
-The project is a scrollytelling website that tells the story of a man who is struggling with high energy bills and is searching for ways to reduce them. 
+## What the project does
 
-The website is based on the United Nations' Sustainable Development Goal 7, which is to ensure access to affordable, reliable, sustainable, and modern energy for all. 
+The project is a scrollytelling website that tells the story of a man who is struggling with high energy bills and is searching for ways to reduce them.
 
-The website presents information about this goal and provides various solutions that can help the man and others like him reduce their energy bills while also promoting clean and sustainable energy sources. 
+The website is based on the United Nations' Sustainable Development Goal 7, which is to ensure access to affordable, reliable, sustainable, and modern energy for all.
+
+The website presents information about this goal and provides various solutions that can help the man and others like him reduce their energy bills while also promoting clean and sustainable energy sources.
 
 Through an engaging and interactive storytelling format, the project aims to raise awareness about the importance of clean and affordable energy and inspire people to take action towards achieving this goal.
 
-## Why the project is useful 
+## Why the project is useful
 
 This project raises awareness about the United Nations Sustainable Development Goal 7. By highlighting the importance of this goal, the project helps to promote a greater understanding of the need for clean and sustainable energy sources.
- 
+
 This scrollytelling provides an engaging and interactive way to educate people about the importance of reducing energy bills and adopting more sustainable energy practices. Through the story of a man who is struggling with high energy bills, the website provides relatable examples of the challenges faced by individuals and families who are trying to reduce their energy usage and expenses.
- 
+
 We also offer practical solutions that individuals can implement to reduce their energy bills and promote clean and sustainable energy practices. By providing clear and actionable advice, the website empowers individuals to take meaningful action towards achieving Sustainable Development Goal 7.
- 
+
 Overall, the project is a tool for promoting awareness and inspiring action towards achieving affordable and clean energy for all.
 
 ## How users can get started with the project
 
-To work with the project, the developer can get access to it though assignment-3--scrollytelling-group_2 (Public) repository at the GitHub and make a fork of the repository. Then developer needs to clone the fork repository to his own laptop to work on it. Changes can be made into a pull request; project developers can then merge this pull request into the original project repository. 
+To work with the project, the developer can get access to it though assignment-3--scrollytelling-group_2 (Public) repository at the GitHub and make a fork of the repository. Then developer needs to clone the fork repository to his own laptop to work on it. Changes can be made into a pull request; project developers can then merge this pull request into the original project repository.
 
-To add story features, the developer can add story `section` elements that explain in more detail how the main character conducts his own analysis and makes a choice about the best option for implementing renewable energy for himself, as well as a continuation of the story about profitability of investing in the renewable energy sources. 
+### Story sections
 
-For a reader or user of the website, it is enough to simply open the link to the website and study the topic of Affordable and clean energy. 
+New scrollable sections can be added as section elements within the main `scroll-container` _div_ element. Future extensions of the story may include further sections about how the character John installs his solar panels and the resulting confidence and satisfaction he gains about living sustainably as he sees his solar panels contributing renewable energy over time.
+
+### Text highlighting
+
+The text-highlighting animations are created with IntersectionObservers on text sections with the `para__span` class. To add a highlight animation to emphasized statements in any new sections, just encapsulate the highlight text in a span with the `para__span` class and observe the element with the `observerSceneOne` observer. The observer handler code will add the text-highlighting animation once the text is scrolled to.
+
+### Issues
+
+Issues can be opened in the project's Github repository's Issues; project maintainers will respond to issues and work to resolve bugs and feature requests.
+
+### Users
+
+For a reader or user of the website, it is enough to simply open the link to the website and study the topic.
 
 ## Where users can get help with your project
 
@@ -55,4 +68,3 @@ Our project is being developed by a collaborative team of three individuals: Edg
 To ensure that we maintain a cohesive and coordinated approach to our work, we hold regular team meetings to review progress and discuss any issues that arise. These meetings serve as an opportunity to brainstorm new ideas, collaborate on features or enhancements, and ensure that our work is aligned with the project's goals and objectives.
 
 As a team, we are committed to leveraging our individual strengths and areas of expertise to deliver a high-quality product that meets the needs of our user/users. By establishing clear roles and responsibilities and maintaining open lines of communication, we believe that we can work together effectively to ensure the success of our project. We are confident that our team's dedication and collaborative efforts will lead to a successful outcome.
-
