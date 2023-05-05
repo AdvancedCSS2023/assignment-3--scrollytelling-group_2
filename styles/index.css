@@ -354,6 +354,10 @@ div.iceland {
   min-width: 400px;
 }
 
+.text--climate-relating:last-child {
+  margin-bottom: 500px;
+}
+
 .text--wave {
   display: flex;
   flex-direction: column;
