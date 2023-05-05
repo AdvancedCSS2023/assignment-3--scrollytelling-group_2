@@ -28,7 +28,7 @@ body {
 
 // Article
 .para__background,
-.para-number,
+.para-heading,
 .flag_text {
     background-color: $paraColor;
 }
@@ -38,7 +38,7 @@ body {
     color: $whiteColor;
 }
 
-.para-number__container {
+.para-heading__container {
     border: $borderColorPara;
     box-shadow: $shadowColorPara;
 }
@@ -47,7 +47,7 @@ body {
 //     border: $borderColorLaptop;
 // }
 
-.para-number h3 {
+.para-heading h3 {
     color: $whiteColor;
 }
 // Browser colors
