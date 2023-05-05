@@ -333,7 +333,6 @@ div.iceland {
 .content__container section {
   height: auto;
   min-height: 100%;
-  overflow: auto;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
