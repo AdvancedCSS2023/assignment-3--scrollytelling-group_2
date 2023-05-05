@@ -452,6 +452,10 @@ div.iceland {
     width: 100%;
   }
 }
+.end-paragraph {
+  margin: 0 auto;
+}
+
 body {
   background-color: rgb(235, 232, 226);
 }
@@ -586,7 +590,7 @@ body {
   font-size: 50px;
 }
 
-.flex-child p {
+.flex-child p, .end-paragraph {
   font-size: 40px;
 }
 
