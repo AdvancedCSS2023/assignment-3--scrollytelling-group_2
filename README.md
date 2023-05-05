@@ -61,7 +61,7 @@ To streamline our development process, we implemented BEM (Block, Element, Modif
 
 Furthermore, we utilized Live Sass Compiler, an extension that compiled our SCSS code into CSS in real-time. With this tool, we were able to make changes to our SCSS code and instantly see the results without the need for manual compilation. By leveraging Live Sass Compiler, we were able to work more efficiently and productively.
 
-By combining the power of these technologies, we delivered a well-structured, maintainable, and highly functional web page that provided users with a seamless and intuitive experience. Our use of HTML, SCSS with separation of concerns, BEM, and Live Sass Compiler enabled us to work efficiently and effectively to deliver a high-quality product that met the needs of our users.
+By combining the power of these technologies, we delivered a well-structured, maintainable, and highly functional web page that provided users with a seamless and intuitive experience. Our use of HTML, SCSS with separation of concerns, Intersection Observer API, BEM, and Live Sass Compiler enabled us to work efficiently and effectively to deliver a high-quality product that met the needs of our users.
 
 ## Who maintains and contributes to the project
 
