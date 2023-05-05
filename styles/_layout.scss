@@ -1,4 +1,4 @@
-@import "_mixins.scss";
+@import '_mixins.scss';
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +26,7 @@ body {
 .flex__container--start {
     @include flex-center;
     position: relative;
-    opacity: 1; 
+    opacity: 1;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -331,11 +331,10 @@ div.iceland {
 
 // cover article
 
-.para__background.clean-energy{
+.para__background.clean-energy {
     max-width: 40%;
     margin-top: 20vh;
     opacity: 0.7;
-
 }
 // * * * * Snizhana * * * * * *
 
@@ -362,6 +361,10 @@ div.iceland {
 .text--climate-relating {
     width: 40%;
     min-width: 400px;
+}
+
+.text--climate-relating:last-child {
+    margin-bottom: 500px;
 }
 
 .text--wave {
@@ -446,7 +449,7 @@ div.iceland {
     * {
         overflow: hidden;
     }
-    .scroll-container{
+    .scroll-container {
         display: none;
     }
     .pop-up {
