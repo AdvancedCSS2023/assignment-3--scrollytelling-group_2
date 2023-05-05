@@ -471,11 +471,16 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3);
 }
 
+.laptop__screen {
+  border: 30px solid rgb(35, 35, 35);
+}
+
 .para-heading h3 {
   color: white;
 }
 
-.browser {
+.browser,
+.url__field {
   background-color: rgb(232, 234, 237);
 }
 
@@ -492,7 +497,6 @@ body {
 }
 
 .content__container,
-.url__field,
 .browser__url {
   background-color: white;
 }

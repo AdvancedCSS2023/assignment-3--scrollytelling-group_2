@@ -43,15 +43,16 @@ body {
     box-shadow: $shadowColorPara;
 }
 
-// .laptop__screen {
-//     border: $borderColorLaptop;
-// }
+.laptop__screen {
+    border: 30px solid $borderColorLaptop;
+}
 
 .para-heading h3 {
     color: $whiteColor;
 }
 // Browser colors
-.browser {
+.browser,
+.url__field {
     background-color: $browserColor;
 }
 
@@ -66,7 +67,6 @@ body {
 }
 
 .content__container,
-.url__field,
 .browser__url {
     background-color: $whiteColor;
 }
