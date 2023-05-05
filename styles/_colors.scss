@@ -18,7 +18,7 @@ $shadowColorPara: rgba(0, 0, 0, 0.3);
 $borderColorLaptop: rgb(35, 35, 35);
 $blackColor: black;
 $grayBlueColor: rgb(103, 105, 117);
-
+$linearGradient: linear-gradient(to right, #93c6ef, rgb(236, 183, 126) 70%, #4CAF50);
 body {
     background-color: $backgroundColorBody;
 }
@@ -27,6 +27,9 @@ body {
 }
 
 // Article
+.section--cover{
+    background: $linearGradient;
+}
 .para__background,
 .para-heading,
 .flag_text {
