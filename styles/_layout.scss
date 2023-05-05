@@ -342,7 +342,7 @@ div.iceland {
 .content__container section {
     height: auto;
     min-height: 100%;
-    overflow: auto;
+    // overflow: auto;
 
     &::-webkit-scrollbar {
         display: none;
