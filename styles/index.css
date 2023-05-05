@@ -455,7 +455,7 @@ body {
 .para__background,
 .para-number,
 .flag_text {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .para__background p,
@@ -499,18 +499,18 @@ body {
 }
 
 .text__content--black {
-  background-color: rgba(0, 0, 0, 0.667);
-  color: rgba(230, 225, 225, 0.886);
+  background-color: rgba(0, 0, 0, 0.942);
+  color: rgb(230, 225, 225);
 }
 
 .text__content--wave {
-  background-color: rgba(16, 170, 213, 0.466);
+  background-color: rgba(206, 233, 239, 0.914);
 }
 
 .text--climate-relating,
 .text__content--prediction {
-  background-color: rgba(0, 0, 0, 0.667);
-  color: rgba(230, 225, 225, 0.886);
+  background-color: rgba(0, 0, 0, 0.942);
+  color: rgb(230, 225, 225);
 }
 
 .photo-card {
@@ -733,7 +733,7 @@ body {
   background-position: 100% 0;
 }
 .animated.para__span.gold {
-  background-image: linear-gradient(90deg, rgb(71, 43, 12) 50%, rgba(255, 255, 255, 0) 50%);
+  background-image: linear-gradient(90deg, rgba(146, 99, 3, 0.948) 50%, rgba(255, 255, 255, 0) 50%);
 }
 .animated.para__span.blazing {
   background-image: linear-gradient(90deg, rgb(121, 204, 243) 50%, rgba(255, 255, 255, 0) 50%);
